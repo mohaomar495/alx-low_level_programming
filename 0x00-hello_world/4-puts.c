@@ -1,12 +1,6 @@
 #include <stdio.h>
 
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-puts(“\”Hello, Puts”);
+int main(){
+puts("\"Hello, puts");
 return (0);
 }
