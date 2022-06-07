@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * main - prints a string
-* Description: the string is "Holberton"
+* Description: the string is "_putchar"
 *
 * Return: 0
 */
@@ -18,3 +18,4 @@ int main(void)
 	_putchar('\n');
 
 	return (0);
+}
