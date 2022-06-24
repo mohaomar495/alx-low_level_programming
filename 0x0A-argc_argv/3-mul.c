@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 
 	if (argc  == 1 || argc == 2)
 	{
-		printf("invalid\n");
+		printf("error\n");
 		return (1);
 	}
 	else
@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 		m = 1;
 
 		for (n = 1; n < 3; n++)
-		m = m * atoi(argv[n]);
+		m *= atoi(argv[n]);
 
 		printf("%d\n", m);
 	}
