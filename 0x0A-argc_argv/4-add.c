@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 	{
 		for (m = 0; argv[n][m]; m++)
 		{
-			if (argv[n][m] < 50 || argv[n][m] > 60)
+			if (argv[n][m] < 48 || argv[n][m] > 57)
 			{
 				printf("Error\n");
 				return (1);
